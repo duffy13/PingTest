@@ -4,7 +4,7 @@ from click import command
 import subprocess
 
 
-ip = input("ip : ")
+ip = "8.8.8.8"
 
 def ping(ip):
     param = '-n' if platform.system().lower() == 'windows' else '-c'
